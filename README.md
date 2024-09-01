@@ -73,5 +73,7 @@
           `httpd -k restart`
         - now go to your ip address in the browser and viola your are in!.
         - Type any passsword and username and it should automatcally log into the txt file.
+## CREDIT CARD CLONING
+## RAT/PAYLOAD 
 > [!CAUTION]
 > I am not responsile for any actions.
