@@ -75,5 +75,8 @@
         - Type any passsword and username and it should automatcally log into the txt file.
 ## CREDIT CARD CLONING
 ## RAT/PAYLOAD 
+## SQL INJECTION 
+ - SQL injection is a code injection technique that might destroy your databas
+ - For sql injection we need to use sql which runs on boolean logic(logic gates).
 > [!CAUTION]
 > I am not responsile for any actions.
