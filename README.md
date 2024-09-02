@@ -1,4 +1,4 @@
-# IIT-INDORE-WORKSHOP-ETHICAL-HACKING
+# IIT INDORE WORKSHOP ETHICAL HACKING
 
 ## Cyber security 
 
@@ -15,6 +15,7 @@
 - CREDIT CARD CLONING
 - RAT/PAYLOAD CREATE USING MSF CONSOLE
 - SQL INJECTION
+- ANDROID HACKING USING ADB 
   
 ## **Wifi Hacking**
   - A ***WiFi hack*** is any technique used to gain unauthorized access to a WiFi network. Typically, this is done by exploiting security flaws or vulnerabilities, allowing the attacker to steal confidential information or disrupt the network’s normal operations.
@@ -84,7 +85,7 @@
         - Type any passsword and username and it should automatcally log into the txt file.
 ## CREDIT CARD CLONING
  - ***Credit card cloning*** is the electronic theft of data from a credit card to enable unauthorized charges in the victim's name. This practice is also called credit card skimming.
- - Credit card skimmers are the device that are used to clone the credit card and make a exact replicate of it so that the attack can use it anywhere on the world they just need to swipe the card and that's it.
+ - [Credit card skimmers](https://www.identitytheft.info/credit-card-skimmer-pictures.aspx)  are the device that are used to clone the credit card and make a exact replicate of it so that the attack can use it anywhere on the world they just need to swipe the card and that's it.
  - In recent , the pinless pay have been introduced which allowes you to buy something without entering your pin upto 2000 rupees, Well the exploit to that have been also found just like skimmer the nfc tag has been also cloned which can be used for the same purpose.
  - To do this you need to buy a skimmer from outside of India (Please refrain from Buying In India as indian people will scam the shit outta you 😂).
  - With The skimmer you need to purchase some dummy credit cards (which contains a magnetic strip and chip reader)
@@ -92,7 +93,7 @@
    
    ![MRSE](https://github.com/AdityaRoy999/IIT-INDORE-WORKSHOP-ETHICAL-HACKING-/blob/main/msre.png)
  - with this skimmer you can scan the victim's card and copy the data into the dummy card which can be used anywhere in the world to do transactions.
-## RAT/PAYLOAD 
+## RAT/PAYLOAD (TO BE UPDATED)
 ## SQL INJECTION 
  - SQL injection is a code injection technique that might destroy your database.
  - For sql injection we need to use sql which runs on boolean logic(logic gates).
@@ -139,6 +140,7 @@ data
 ```
 
 - The websites which are vunerable can only be hacked via sql Injection code.
+### ANDROID HACKING 
 
 > [!CAUTION]
 > I am not responsile for any actions.
