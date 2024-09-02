@@ -74,6 +74,10 @@
         - now go to your ip address in the browser and viola your are in!.
         - Type any passsword and username and it should automatcally log into the txt file.
 ## CREDIT CARD CLONING
+ - ***Credit card cloning*** is the electronic theft of data from a credit card to enable unauthorized charges in the victim's name. This practice is also called credit card skimming.
+ - Credit card skimmers are the device that are used to clone the credit card and make a exact replicate of it so that the attack can use it anywhere on the world they just need to swipe the card and that's it.
+ - In recent , the pinless pay have been introduced which allowes you to buy something without entering your pin upto 2000 rupees, Well the exploit to that have been also found just like skimmer the nfc tag has been also cloned which can be used for the same purpose.
+ - To do this you need to buy a skimmer from outside of India (Please refrain from Buying In India as 
 ## RAT/PAYLOAD 
 ## SQL INJECTION 
  - SQL injection is a code injection technique that might destroy your databas
