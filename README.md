@@ -77,7 +77,11 @@
  - ***Credit card cloning*** is the electronic theft of data from a credit card to enable unauthorized charges in the victim's name. This practice is also called credit card skimming.
  - Credit card skimmers are the device that are used to clone the credit card and make a exact replicate of it so that the attack can use it anywhere on the world they just need to swipe the card and that's it.
  - In recent , the pinless pay have been introduced which allowes you to buy something without entering your pin upto 2000 rupees, Well the exploit to that have been also found just like skimmer the nfc tag has been also cloned which can be used for the same purpose.
- - To do this you need to buy a skimmer from outside of India (Please refrain from Buying In India as 
+ - To do this you need to buy a skimmer from outside of India (Please refrain from Buying In India as indian people will scam the shit outta you 😂).
+ - With The skimmer you need to purchase some dummy credit cards (which contains a magnetic strip and chip reader)
+ - with the skimmer you will get a CD/DVD drive which contains the card utility software it should look like this.
+   
+   Dummy Credit Card
 ## RAT/PAYLOAD 
 ## SQL INJECTION 
  - SQL injection is a code injection technique that might destroy your databas
