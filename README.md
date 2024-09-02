@@ -9,7 +9,13 @@
 -  **Forensics** - Recovery and Investigation 
 -  **GRC** - Governance Risk and Compliance
 
-## Woekshop Contents
+## Workshop Contents
+- WIFI HACKING
+- SOCIAL ENGINERRING
+- CREDIT CARD CLONING
+- RAT/PAYLOAD CREATE USING MSF CONSOLE
+- SQL INJECTION
+  
 ## **Wifi Hacking**
   - A ***WiFi hack*** is any technique used to gain unauthorized access to a WiFi network. Typically, this is done by exploiting security flaws or vulnerabilities, allowing the attacker to steal confidential information or disrupt the network’s normal operations.
   - This section will  show how you can hack the wifi (for legal purposes).
@@ -24,6 +30,7 @@
     - For Windows
       - First You nwwd to install [xampp](https://www.apachefriends.org/) in your device (laptop/computer).
       - After Installing xxamp create a script in php ending with login.php inside the htdocs folder located in `C:\xampp\htdocs`.
+        
         ```php
         <?php
         header ('Location: https://facebook.com');
@@ -40,7 +47,9 @@
         exit;
         ?>
         ```
+        
       - After moving the file create another file in the same folder named index.html and then copy the code from this [webpage](view-source:https://www.facebook.com/login/) or just copy the code from below and paste it in a file.
+        
         ```html       
         <!DOCTYPE html>
         <html lang="en" id="facebook" class="no_js">
@@ -81,10 +90,55 @@
  - With The skimmer you need to purchase some dummy credit cards (which contains a magnetic strip and chip reader)
  - with the skimmer you will get a CD/DVD drive which contains the card utility software it should look like this.
    
-   Dummy Credit Card
+   ![MRSE](https://github.com/AdityaRoy999/IIT-INDORE-WORKSHOP-ETHICAL-HACKING-/blob/main/msre.png)
+ - with this skimmer you can scan the victim's card and copy the data into the dummy card which can be used anywhere in the world to do transactions.
 ## RAT/PAYLOAD 
 ## SQL INJECTION 
- - SQL injection is a code injection technique that might destroy your databas
+ - SQL injection is a code injection technique that might destroy your database.
  - For sql injection we need to use sql which runs on boolean logic(logic gates).
+ - Let'a take OR Gate for example
+   
+   |   A  |   B  |  Y = A + B (Output)  |
+   |:--: | :---: | :---: |
+   | 1 | 1   | 1   |
+   | 1 | 0   | 1   |
+   | 0 | 1   | 1   |
+   | 0 | 0   | 0   |
+- In this table we can see the output of True (1) and True (1) is always 1 (True).
+- so in SQL the information to the server is sent like this.
+  
+``` sql
+SELECT * 
+FROM students 
+WHERE username = 'username1' 
+  AND password = 'password1';
+
+```
+OR
+``` sql
+SELECT * 
+FROM students 
+WHERE username IN ('username1', 'username2')
+  AND password = 'password1';
+```
+- by use of a sql injection code we will try to infect the database code and entry into the server.
+  
+``` sql
+1"OR"1"="1"-- -
+```
+- The above code checks whether the input field are True if they are not then it executes the condition `1 OR 1`  which is always True thus the code is executed and we get entry into the server, `-- -` means the rest of the things is to be ignored it acts as a comment.
+- Every SQL Programmer may use different SQL  Codes for their database, thus you may not be able to get into the server with one format so you have to try different formats and  the data format are as follows.
+
+``` sql
+data 
+'data'
+"data"
+(data)
+('data')
+("data")
+```
+
+- The websites which are vunerable can only be hacked via sql Injection code.
+
 > [!CAUTION]
 > I am not responsile for any actions.
