@@ -28,7 +28,7 @@
   - ***Phishing*** is a type of online scam that attempts to steal your personal information or money by tricking you into sharing it
   - **Steps**
     - For Windows
-      - First You nwwd to install [xampp](https://www.apachefriends.org/) in your device (laptop/computer).
+      - First You need to install [xampp](https://www.apachefriends.org/) in your device (laptop/computer).
       - After Installing xxamp create a script in php ending with login.php inside the htdocs folder located in `C:\xampp\htdocs`.
         
         ```php
